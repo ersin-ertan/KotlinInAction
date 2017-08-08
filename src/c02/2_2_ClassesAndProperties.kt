@@ -1,5 +1,18 @@
 package c02
 
+
+// instead of imports use package, but no need if within package scope
+import java.io.File.listRoots // importing a method
+import java.io.BufferedReader // or a class
+import java.math.*// for all classes and top level functions within them
+
+
+fun importMethodAndClass(){
+    listRoots()
+    val br:BufferedReader = BufferedReader(null)
+    BigInteger("3")
+    }
+
 class Person(val name:String) // value objects, set is when you create via constructor
 
 fun usingPerson(){
@@ -35,4 +48,13 @@ class Rect(val height:Int, val width:Int){
     // is computed on each access
     // if you describe the characteristic (the property) of a class,
     // you should declare it as a property
+}
+
+fun usingClassesFromAFile(){
+    geometry.A(1) // multiple classes in this file, file name is irrelevant
+    geometry.B(2) // but to keep standard java conventions create a shapes package
+    // then put the shapes within a single file if needed
+    // to get geometry.shapes.A
+    geometry.C(3)
+
 }
