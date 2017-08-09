@@ -1,9 +1,6 @@
 import c01.Person
-import c02.Colour
+import c02.*
 import c02.Colour.*
-import c02.creation
-import c02.javaEval
-import c02.whenWithoutArgs
 
 fun main(args: Array<String>){ // top level function
     println(
@@ -15,8 +12,12 @@ fun main(args: Array<String>){ // top level function
 //    c02.getMapper(Colour.FLASHING)
 //    c02.mixedMapper(ORANGE, RED) // notice the order is mixed
 //    whenWithoutArgs(BLACK, FLASHING) // can mix order unless explicit
-    javaEval(creation())
+//    javaEval(creation())
+//    oneToTen // will print 1..10 exactly as is
+isInSet()
     )
+//    progresssion()
+//    p2()
 
 //    c02.getMapper(BLACK) // import Colour.*
 }
