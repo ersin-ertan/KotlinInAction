@@ -14,7 +14,7 @@ fun main(args: Array<String>){ // top level function
 //    whenWithoutArgs(BLACK, FLASHING) // can mix order unless explicit
 //    javaEval(creation())
 //    oneToTen // will print 1..10 exactly as is
-isInSet()
+//    isInSet()
     )
 //    progresssion()
 //    p2()
