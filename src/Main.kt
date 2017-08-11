@@ -2,6 +2,7 @@ import c01.Person
 import c02.*
 import c02.Colour.*
 import c03.kl
+import practice.start
 
 fun main(args: Array<String>){ // top level function
     println(
@@ -22,6 +23,8 @@ fun main(args: Array<String>){ // top level function
 //    for (i in 1..10 step 2)println(i) // 1 3 5 7 9
 //    progresssion()
 //    p2()
-
 //    c02.getMapper(BLACK) // import Colour.*
+//start()
+
+
 }
