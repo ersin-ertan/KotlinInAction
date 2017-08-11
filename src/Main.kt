@@ -1,6 +1,7 @@
 import c01.Person
 import c02.*
 import c02.Colour.*
+import c03.kl
 
 fun main(args: Array<String>){ // top level function
     println(
@@ -15,8 +16,9 @@ fun main(args: Array<String>){ // top level function
 //    javaEval(creation())
 //    oneToTen // will print 1..10 exactly as is
 //    isInSet()
-    practice.C(2,4).b()
+//    practice.C(2,4).b()
     )
+//    kl()
 //    for (i in 1..10 step 2)println(i) // 1 3 5 7 9
 //    progresssion()
 //    p2()
