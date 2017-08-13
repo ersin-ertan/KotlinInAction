@@ -47,7 +47,7 @@ class B2:Clickable, Focusable{
     // may be interesting to have an operator work with the two results
     override fun doubleClick1() {
         if(super<Focusable>.doubleClick().equals(super<Clickable>.doubleClick()))
-        {}// get position of the focusable image, some how use the clickable object
+        {} // get position of the focusable image, some how use the clickable object
             // position for something...
             else {}
 

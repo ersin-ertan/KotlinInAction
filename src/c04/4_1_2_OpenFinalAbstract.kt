@@ -74,4 +74,4 @@ internal open class TButton: Focusable{
 //    whisper() // error cannot access whisper it is private in TButton
 //}
 
-// outer classes don't see private members of its inner classe in kotlin
+// outer classes don't see private members of its inner class in kotlin

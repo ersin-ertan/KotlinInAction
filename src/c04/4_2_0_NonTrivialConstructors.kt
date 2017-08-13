@@ -9,6 +9,7 @@ package c04
 class User(val nickname:String) // this is the primary constructor
 // equal to
 // class User constructor(_nickname:String){
+
 // val nickname:String
 // init{ nickname = _nickname }} // initializer block, executed when class is created
 // through the primary constructor, can declare several initializer blocks in one class
@@ -46,4 +47,4 @@ class Secretive private constructor()
 //val a = Secretive() // error cannot access init, it is private in Secretive
 
 // java uses private class as static utility classes, kotlin has it built in with top-
-// levell functions, thus singletons use object declarations
+// level functions, thus singletons use object declarations
