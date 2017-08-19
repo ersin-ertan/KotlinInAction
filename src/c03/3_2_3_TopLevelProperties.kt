@@ -15,3 +15,11 @@ const val PUBLIC_STATIC_FINAL_VAL = "hello"
 // java produces
 // public static final String PUBLIC_STATIC_FINAL_VAL = "hello";
 
+
+
+/*Such properties need to fulfil the following requirements:
+
+Top-level or member of an object
+Initialized with a value of type String or a primitive type
+No custom getter
+*/

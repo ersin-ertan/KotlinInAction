@@ -1,6 +1,6 @@
 package c04
 
-/*  - interfacces can contain property declarations, final and public by default
+/*  - interfaces can contain property declarations, final and public by default
     - nested classes aren't inner by default: no implicit reference to outer class
     - ability to fully declare constructors with internal logic
     - properties redefinition of accessors
