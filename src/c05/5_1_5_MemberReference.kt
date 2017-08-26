@@ -4,7 +4,7 @@ import c04.Person1
 
 // how do you pass a parameter that is already defined as a function, you pass a lambda that calls the function, or
 // pass the function directly via a member reference, a short syntax for creating a function value that calls exactly
-// one method or accessses a property
+// one method or accesses a property
 
 val getAge = c05.Person1::age // double colon, and has the same type as a lambda
 // or
