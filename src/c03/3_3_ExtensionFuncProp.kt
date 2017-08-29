@@ -39,7 +39,7 @@ fun pr(){
     println(list.joinToString("--")) // extended from collections
 }
 
-// if specificcally typed Collecction<String>.join
+// if specifically typed Collection<String>.join
 // can't use it with non strings Error: Type mismatch:
 
 // static nature of extensions means it cant be overridden in subclasses

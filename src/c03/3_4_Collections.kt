@@ -50,7 +50,7 @@ fun eq(){
     // create a pair using the to function and unpack it with a destructuring declaration
     // which is not limited to pairs, consider
     val collection:List<String> = listOf("a", "b")
-    for((index, element) in collection.withIndex()){
+    for((index, element) in collection.withIndex()){ // adds the index value, to be like a map
         println(("$index:$element"))
     }
 
